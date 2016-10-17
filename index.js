@@ -1,1 +1,2 @@
-module.exports = require(`./lib/MineplexAPIWrapper`);
+var MineplexAPIWrapper = require(`./lib/MineplexAPIWrapper`);
+module.exports = MineplexAPIWrapper;
