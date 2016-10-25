@@ -3,9 +3,17 @@
   "version": "1.0.0",
   "description": "Higher-level API wrapper for the Mineplex API.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "ArcticZeroo",
-  "license": "ISC"
+  "keywords": [
+    "mineplex",
+    "minecraft",
+    "api",
+    "mineplexapi",
+    "mineplex-api",
+    "mineplexapiwrapper",
+    "mineplex-api-wrapper"
+  ],
+  "dependencies": {
+    "mineplex-api": "^1.0.0"
+  }
 }
