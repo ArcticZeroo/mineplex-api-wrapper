@@ -1,6 +1,6 @@
 {
   "name": "mineplex-api-wrapper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Higher-level API wrapper for the Mineplex API.",
   "main": "index.js",
   "author": "ArcticZeroo",
