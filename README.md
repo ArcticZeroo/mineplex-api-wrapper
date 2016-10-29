@@ -19,7 +19,7 @@ This property holds the `MineplexAPI class` from the `mineplex-api` module. You 
 ####Methods
 
 #####Server Methods
-**getServerStatus**
+######**getServerStatus**
 *Gets current status of the server*
 
 Parameters
@@ -34,7 +34,7 @@ Callback
 |---|---|
 |a new ServerStatus class containing the current server status.|ServerStatus|
 
-**getServerTotal**
+######**getServerTotal**
 *Gets current total player count on the server.*
 
 Parameters
@@ -50,7 +50,7 @@ Callback
 |The current amount of online players.|integer|
 
 
-**getServerGroups**
+######**getServerGroups**
 *Gets a list of all currently active server groups*
 
 Parameters
@@ -68,7 +68,7 @@ Callback
 ---
 #####Player Methods
 
-**getPlayerInfo**
+######**getPlayerInfo**
 *Gets all available information about a player*
 
 Parameters
@@ -84,7 +84,7 @@ Callback
 |---|---|
 |A Player class containing information about the player|Player|
 
-**getPlayerStats**
+######**getPlayerStats**
 *Gets the stats of a player.*
 
 Parameters
@@ -100,7 +100,7 @@ Callback
 |---|---|
 |A PlayerStatus class containing stats for the player|PlayerStatus|
 
-**getPlayerFriends**
+######**getPlayerFriends**
 *Gets the friends of a player.*
 
 Parameters
@@ -116,7 +116,7 @@ Callback
 |---|---|
 |A PlayerFriends class containing friends for the player|PlayerFriends|
 
-**getPlayerStatus**
+######**getPlayerStatus**
 *Gets the status of a player.*
 
 Parameters
@@ -135,7 +135,7 @@ Callback
 ---
 #####Amplifier Methods
 
-**getAmplifierGroups**
+######**getAmplifierGroups**
 *Gets a list of all available amplifier groups.*
 
 Parameters
@@ -150,7 +150,7 @@ Callback
 |---|---|
 |An array of names of available ampllifier groups.|Array\<String>|
 
-**getAmplifiers**
+######**getAmplifiers**
 *Gets all amplifiers in all groups.*
 
 Parameters
@@ -165,7 +165,7 @@ Callback
 |---|---|
 |An AmplifierGroups class containing all amplifier groups.|AmplifierGroups|
 
-**getAmplifiersForGroup**
+######**getAmplifiersForGroup**
 *Gets all amplifiers for a specific group.*
 
 Parameters
@@ -197,15 +197,15 @@ Callback
 
 #####Private Properties
 
-**_total**
+######**_total**
 This property holds the total count.
 
-**_groups**
+######**_groups**
 This property holds the groups object.
 
 ####Methods
 
-**getTotal**
+#####**getTotal**
 *Gets total from status*
 
 Returns
@@ -214,7 +214,7 @@ Returns
 |---|---|
 |An integer representing the total count.|integer|
 
-**getGroups**
+#####**getGroups**
 *Gets stats for all groups*
 
 Returns
@@ -223,7 +223,7 @@ Returns
 |---|---|
 |An object which contains all groups' data. Data format is `{"group":player_count}` |Object|
 
-**getGroup**
+#####**getGroup**
 *Gets count for a certain group*
 
 Parameters
