@@ -23,18 +23,29 @@ module.exports = {
         'OWNER'
     ],
     convert: {
-        'NONE'  : 'PLAYER',
-        'ALL'   : 'PLAYER',
-        'MAPDEV': 'BUILDER',
-        'HELPER': 'TRAINEE',
-        'MOD'   : 'MODERATOR',
-        'SR.MOD': 'SR.MODERATOR',
-        'SRMOD' : 'SR.MODERATOR',
-        'SNRMOD': 'SR.MODERATOR',
-        'CMOD'  : 'C.MOD',
-        'JRDEV' : 'JR.DEV',
-        'JNRDEV': 'JR.DEV',
-        'DEV'   : 'DEVELOPER',
-        'LT'    : 'LEADER'
+        'NONE'         : 'PLAYER',
+        'ALL'          : 'PLAYER',
+
+        'YOUTUBE_SMALL': 'YT',
+
+        'MAPDEV'       : 'BUILDER',
+
+        'HELPER'       : 'TRAINEE',
+
+        'MOD'          : 'MODERATOR',
+
+        'SR.MOD'       : 'SR.MODERATOR',
+        'SRMOD'        : 'SR.MODERATOR',
+        'SNRMOD'       : 'SR.MODERATOR',
+        'SNRMODERATOR' : 'SR.MODERATOR',
+
+        'CMOD'         : 'C.MOD',
+
+        'JRDEV'        : 'JR.DEV',
+        'JNRDEV'       : 'JR.DEV',
+
+        'DEV'          : 'DEVELOPER',
+
+        'LT'           : 'LEADER'
     }
 };
