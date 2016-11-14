@@ -1,3 +1,3 @@
-var MinecraftToChalk   = require('./lib/MinecraftToChalk');
+var Prototypes         = require('./lib/Prototypes');
 var MineplexAPIWrapper = require(`./lib/MineplexAPIWrapper`);
-module.exports = MineplexAPIWrapper;
+module.exports         = MineplexAPIWrapper;
