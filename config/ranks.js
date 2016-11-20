@@ -12,13 +12,13 @@ module.exports = {
         'MAPLEAD',
         'MEDIA',
         'TRAINEE',
-        'MODERATOR',
-        'SR.MODERATOR',
+        'MOD',
+        'SR.MOD',
         'C.MOD',
         'SUPPORT',
         'JR.DEV',
         'ADMIN',
-        'DEVELOPER',
+        'DEV',
         'LEADER',
         'OWNER'
     ],
@@ -32,19 +32,19 @@ module.exports = {
 
         'HELPER'       : 'TRAINEE',
 
-        'MOD'          : 'MODERATOR',
+        'MODERATOR'    : 'MOD',
 
-        'SR.MOD'       : 'SR.MODERATOR',
-        'SRMOD'        : 'SR.MODERATOR',
-        'SNRMOD'       : 'SR.MODERATOR',
-        'SNRMODERATOR' : 'SR.MODERATOR',
+        'SR.MODERATOR' : 'SR.MOD',
+        'SRMOD'        : 'SR.MOD',
+        'SNRMOD'       : 'SR.MOD',
+        'SNRMODERATOR' : 'SR.MOD',
 
         'CMOD'         : 'C.MOD',
 
         'JRDEV'        : 'JR.DEV',
         'JNRDEV'       : 'JR.DEV',
 
-        'DEV'          : 'DEVELOPER',
+        'DEVELOPER'    : 'DEV',
 
         'LT'           : 'LEADER'
     }
