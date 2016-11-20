@@ -5,6 +5,7 @@ module.exports = {
         'HERO',
         'LEGEND',
         'TITAN',
+        'ETERNAL',
         'YT',
         'TWITCH',
         'YOUTUBE',
