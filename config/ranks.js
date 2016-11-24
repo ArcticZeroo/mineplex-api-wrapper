@@ -27,7 +27,7 @@ module.exports = {
         'NONE'         : 'PLAYER',
         'ALL'          : 'PLAYER',
 
-        'YOUTUBE_SMALL': 'YT',
+        'YOUTUBESMALL' : 'YT',
 
         'MAPDEV'       : 'BUILDER',
 
