@@ -9,7 +9,10 @@ function getPermission(required, rank){
 }
 
 log.info(`${log.chalk.yellow('SR.MOD')} Permission Level: ${log.chalk.yellow(Ranks.getPermissionLevel('SR.MOD'))}`);
+log.info(`${log.chalk.magenta('YOUTUBE_SMALL')} -> ${log.chalk.magenta(Ranks.getConverted('YOUTUBE_SMALL'))}`);
+log.info(`${log.chalk.blue('MAPDEV')} -> ${log.chalk.blue(Ranks.getConverted('MAPDEV'))}`);
 log.info(`${log.chalk.cyan('HELPER')} -> ${log.chalk.cyan(Ranks.getConverted('HELPER'))}`);
+log.info(`${log.chalk.yellow('SR.MODERATOR')} -> ${log.chalk.yellow(Ranks.getConverted('SR.MODERATOR'))}`);
 log.info(`${log.chalk.red('LT')} -> ${log.chalk.red(Ranks.getConverted('LT'))}`);
 console.log('');
 log.info(`${log.chalk.yellow('MOD')}+ Command Permissions`);
