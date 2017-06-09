@@ -10,6 +10,7 @@ module.exports = {
         'TWITCH',
         'YOUTUBE',
         'BUILDER',
+        'MAPPER',
         'MAPLEAD',
         'MEDIA',
         'TRAINEE',
@@ -27,6 +28,7 @@ module.exports = {
         'NONE'          : 'PLAYER',
         'ALL'           : 'PLAYER',
 
+        'MOOTUBE'       : 'YT',
         'YOUTUBESMALL'  : 'YT',
 
         'MAPDEV'        : 'BUILDER',
