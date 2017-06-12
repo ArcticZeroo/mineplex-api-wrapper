@@ -15,6 +15,7 @@ module.exports = {
         'MEDIA',
         'TRAINEE',
         'MOD',
+        'CMA',
         'SR.MOD',
         'C.MOD',
         'SUPPORT',
